@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include su_forum *.css
+recursive-include su_forum *.csv
+recursive-include su_forum *.html
+recursive-include su_forum *.ico
+recursive-include su_forum *.js
+recursive-include su_forum *.json
+recursive-include su_forum *.md
+recursive-include su_forum *.png
+recursive-include su_forum *.py
+recursive-include su_forum *.svg
+recursive-include su_forum *.txt
+recursive-exclude su_forum *.pyc
